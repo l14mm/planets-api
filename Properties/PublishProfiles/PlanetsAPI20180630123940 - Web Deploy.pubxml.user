@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAq0Z65nwdrUSV4tr7cx1f/wAAAAACAAAAAAAQZgAAAAEAACAAAAAS0GiJSIY6CarPgxKuy6mICE1clDVYjTKzvlmBEkJOuQAAAAAOgAAAAAIAACAAAAABhJ5mR25B1G2jKKqg0qCIW7C0mkUm11dMrAU6mPF6m4AAAAAWaXJXX13TCXB4lIBUP0DI/WsFpZv7JCRTAwRTKb/UCVq4OoEE2o0L7qWHjcXYVbq6HUDboWf9HCxYPs3JYjsUZm3qWTr+bB9BJl7C6/1irALPGOddF+z+EOgp3qB9E7GWoZcOCWe8djfs8bsZIsIvNJ+84RVlX26O/VAimzYus0AAAABA9fh8CVWBSQ69xyJg4UEf3r6Ez10fXsT1Oij3cCWTHbQx/Hv7kIixM9dGq/6OPXk9uuxEC1FlN/BeU+A9UImZ</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:planetsapi20180630123940dbserver.database.windows.net,1433;Initial Catalog=PlanetsAPI20180630123940_db;User Id=liam@planetsapi20180630123940dbserver;Password=Andfields61a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
