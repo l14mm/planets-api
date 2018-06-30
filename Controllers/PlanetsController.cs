@@ -18,22 +18,7 @@ namespace PlanetsAPI.Controllers
         {
             _context = context;
         }
-
-        //// GET api/values
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
-
-        //// GET api/values/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value2";
-        //}
-
-        // GET api/planets/earth
+        
         [HttpGet("{name}")]
         public IActionResult GetInfo(string name)
         {

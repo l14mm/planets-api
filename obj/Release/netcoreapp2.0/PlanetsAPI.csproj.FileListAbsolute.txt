@@ -1,0 +1,11 @@
+D:\HDD\Projects\planets-api\bin\Release\netcoreapp2.0\PlanetsAPI.deps.json
+D:\HDD\Projects\planets-api\bin\Release\netcoreapp2.0\PlanetsAPI.runtimeconfig.json
+D:\HDD\Projects\planets-api\bin\Release\netcoreapp2.0\PlanetsAPI.runtimeconfig.dev.json
+D:\HDD\Projects\planets-api\bin\Release\netcoreapp2.0\PlanetsAPI.dll
+D:\HDD\Projects\planets-api\bin\Release\netcoreapp2.0\PlanetsAPI.pdb
+D:\HDD\Projects\planets-api\obj\Release\netcoreapp2.0\PlanetsAPI.csprojAssemblyReference.cache
+D:\HDD\Projects\planets-api\obj\Release\netcoreapp2.0\PlanetsAPI.csproj.CoreCompileInputs.cache
+D:\HDD\Projects\planets-api\obj\Release\netcoreapp2.0\PlanetsAPI.AssemblyInfoInputs.cache
+D:\HDD\Projects\planets-api\obj\Release\netcoreapp2.0\PlanetsAPI.AssemblyInfo.cs
+D:\HDD\Projects\planets-api\obj\Release\netcoreapp2.0\PlanetsAPI.dll
+D:\HDD\Projects\planets-api\obj\Release\netcoreapp2.0\PlanetsAPI.pdb

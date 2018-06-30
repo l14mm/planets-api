@@ -12668,11 +12668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HDD\\Projects\\PlanetsAPI\\PlanetsAPI\\PlanetsAPI.csproj",
+      "projectUniqueName": "D:\\HDD\\Projects\\planets-api\\PlanetsAPI.csproj",
       "projectName": "PlanetsAPI",
-      "projectPath": "D:\\HDD\\Projects\\PlanetsAPI\\PlanetsAPI\\PlanetsAPI.csproj",
+      "projectPath": "D:\\HDD\\Projects\\planets-api\\PlanetsAPI.csproj",
       "packagesPath": "C:\\Users\\liamm\\.nuget\\packages\\",
-      "outputPath": "D:\\HDD\\Projects\\PlanetsAPI\\PlanetsAPI\\obj\\",
+      "outputPath": "D:\\HDD\\Projects\\planets-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
