@@ -39,36 +39,15 @@ namespace PlanetsAPI.Controllers
         {
             return _context.Planets.ToListAsync();
         }
-
-        // POST api/values
+        
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Planet p)
         {
-            Planet planet = new Planet();
-            var lastPlanet = _context.Planets.OrderByDescending(p => p.Id).FirstOrDefault();
-            if (lastPlanet == null)
+            if (ModelState.IsValid)
             {
-                planet.Id = 1;
+                _context.Planets.Add(p);
+                _context.SaveChanges();
             }
-            else
-            {
-                planet.Id = lastPlanet.Id + 1;
-            }
-
-            _context.Planets.Add(planet);
-            _context.SaveChanges();
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }

@@ -24,12 +24,19 @@ namespace PlanetsAPI.Data
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string Image { get; set; }
+        [Required]
         public string Distance { get; set; }
+        [Required]
         public string Mass { get; set; }
+        [Required]
         public string Diameter { get; set; }
+        [Required]
         public string Description { get; set; }
+        [Required]
         public string Link { get; set; }
     }
 }
